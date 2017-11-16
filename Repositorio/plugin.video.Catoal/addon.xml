@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.aerobic"
-       name="[COLOR pink]Aerobic[/COLOR]"
-       version="0.0.1"
-       provider-name="Juldelju">
+<addon id="plugin.video.Catoal"
+       name="[COLOR gold]Catoal[/COLOR][COLOR blue] 5[/COLOR].[COLOR yellow]4[/COLOR].[COLOR red]0[/COLOR]"
+       version="5.4.0"
+       provider-name="Catoal">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.beautifulsoup" version="3.2.1"/>
@@ -23,8 +23,8 @@
   </extension>
 
   <extension point="xbmc.addon.metadata">
-    <summary>Creado por Juldelju</summary>
-    <description>Addons dedicado para disfrutar haciendo ejercicio con las coreografias de aerobic/step,zumba,just dande y un poquito de relajacion.</description>
+    <summary>Creado por Catoal</summary>
+    <description>Catoal 2017</description>
     <platform>all</platform>
   </extension>
 </addon>
