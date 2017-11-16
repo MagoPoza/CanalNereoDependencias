@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
+<addon id="plugin.video.copiadb"
+       name="CopiaDB"
+       version="3.0.5"
+       provider-name="fightnight/Leinad4Mind">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.requests" version="2.6.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="pt_PT">ConteÃºdos dos sites DiskoKosmiko.mx e KBagi.com no Kodi</summary>
+        <summary lang="pt_BR">ConteÃºdos dos sites DiskoKosmiko.mx e KBagi.com no Kodi</summary>
+        <summary lang="en">Contents from DiskoKosmiko.mx and KBagi.com on Kodi</summary>
+        <description lang="pt_PT">VÃª os teus conteÃºdos e os das comunidades diskokosmiko (MÃ©xico) e kumpulbagi (IndonÃ©sia) no Kodi.</description>
+        <description lang="pt_BR">Veja os seus conteÃºdos e os das comunidades diskokosmiko (MÃ©xico) e kumpulbagi (IndonÃ©sia) no Kodi.</description>
+        <description lang="en">Check out yours and others people contents from diskokosmiko (Mexico) and kumpulbagi (Indonesia) communities on Kodi.</description>
+        <platform>all</platform>
+        <source>https://github.com/Leinad4Mind/Leinad4Mind-kodi-addons/tree/master/plugin.video.copiadb</source>
+    </extension>
+</addon>
+
 <addon id="repository.Dependencias" name="[COLOR red]Dependencias Kodi[/COLOR] Canal Nereo" version="1.0.1" provider-name="Canal Nereo Suscribete a mi canal de youtube">
     <extension point="xbmc.addon.repository" name="Canal Nereo">
         <info>https://github.com/canalnereo/CanalNereoDependencias/blob/master/Repositorio/addons.xml</info>
@@ -12,5 +35,19 @@
         <disclaimer></disclaimer>
         <platform>all</platform>
     </extension>
+</addon>
+
+<addon id="xbmc.python" version="2.25.0" provider-name="Team Kodi">
+  <backwards-compatibility abi="2.1.0"/>
+  <requires>
+    <import addon="xbmc.core" version="0.1.0"/>
+  </requires>
+  <extension-point id="script" schema="script.xsd"/>
+  <extension-point id="subtitles" schema="script.xsd"/>
+  <extension-point id="lyrics" schema="script.xsd"/>
+  <extension-point id="weather" schema="script.xsd"/>
+  <extension-point id="library" schema="script.xsd"/>
+  <extension-point id="plugin" schema="pluginsource.xsd"/>
+  <extension-point id="context.item" schema="contextitem.xsd"/>
 </addon>
 </addons>
